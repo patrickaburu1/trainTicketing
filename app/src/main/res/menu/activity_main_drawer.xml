@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/bookTrain"
+            android:icon="@drawable/bticket"
+            android:title="Book Train" />
+        <item
+            android:id="@+id/viewTickets"
+            android:icon="@drawable/viewticket"
+            android:title="View Ticket" />
+        <item
+            android:id="@+id/fareDetails"
+            android:icon="@drawable/viewfare"
+            android:title="Fare Details" />
+        <item
+            android:id="@+id/routes"
+            android:icon="@drawable/viewroute"
+            android:title="View Routes" />
+        <item
+            android:id="@+id/trainSchedule"
+            android:icon="@drawable/schdule"
+            android:title="Train Schedule" />
+        <!--<item-->
+            <!--android:id="@+id/cancelTicket"-->
+            <!--android:icon="@drawable/cancleticket"-->
+            <!--android:title="Cancel Ticket" />-->
+        <item
+            android:id="@+id/contactUs"
+            android:icon="@drawable/contact"
+            android:title="Contact Us" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+        </menu>
+    </item>
+
+</menu>
